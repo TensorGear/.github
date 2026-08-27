@@ -19,9 +19,40 @@ Medicine × AI · Ningbo University Institute of Medical Engineering
 
 PyTorch · OpenCV · U-Net · FastAPI · React/Vite · SAM
 
-## 项目
+## Active Projects
 
-- **water-maze-bundle** — 水迷宫 seed-labeler 全流程工具（FastAPI 后端 + React 前端 + U-Net 推理，一键启动）
+### Animal Behavior
+
+- **[animal-platform](https://github.com/TensorGear/animal-platform)** — Water Maze、Y-Maze 与 Forced Swim 的统一分析平台。
+
+### Paper Experiments
+
+- **[ultron](https://github.com/TensorGear/ultron)** — CalMS21 Mamba/keypoint 行为识别实验主线。
+- **[train-harness](https://github.com/TensorGear/train-harness)** — 训练实验生命周期、基线和证据管理。
+- **[hstwformer](https://github.com/TensorGear/hstwformer)** — HSTWFormer CalMS21 复现与扩展。
+- **[hstwformer-baseline](https://github.com/TensorGear/hstwformer-baseline)** — 固定 pose-only 对照基线。
+- **[msgl-repro](https://github.com/TensorGear/msgl-repro)** — MSGL Transformer CalMS21 复现。
+- **[calms21-experiments](https://github.com/TensorGear/calms21-experiments)** — 论文实验报告与可复现证据。
+- **[sam3-calms21-runner](https://github.com/TensorGear/sam3-calms21-runner)** — SAM3 CalMS21 mask runner。
+
+### Industry Projects
+
+- **[youzhi](https://github.com/TensorGear/youzhi)** — drill/line U-Net 训练与工业视频推理。
+
+### Organization Tooling
+
+- **[skills](https://github.com/TensorGear/skills)** — 团队复用的 AI coding 与研究工作流 skills。
+
+## Archived
+
+- **[y-maze](https://github.com/TensorGear/y-maze)** — 原独立实验仓库；运行能力已合并到 `animal-platform`。
+
+## Repository Policy
+
+- 自研代码默认放在 TensorGear 私有仓库，默认分支统一为 `main`。
+- 数据集、模型权重、视频、虚拟环境、cache 和训练输出不进入 GitHub。
+- 论文实验分支必须推送到远端，服务器不得成为唯一副本。
+- 第三方项目保留上游 remote，TensorGear 不重复镜像完整上游源码。
 
 ## 联系
 
